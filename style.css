@@ -1,0 +1,127 @@
+html {
+    margin: 0;
+}
+
+header .jumbotron {
+    background-image: url(img/header-img.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: black 2px 2px;
+    margin-bottom: 0;
+}
+
+header .nav {
+    background-color: #262626;
+    max-width: 15%;
+    min-width: 30vmin;
+    padding: 1%;
+    font-size-adjust: auto;
+}
+
+footer .jumbotron {
+    background-color: #262626;
+    color: #aaaaaa;
+    text-shadow: black 2px 2px;
+    padding: 1%;
+    margin-bottom: 0;
+}
+
+footer .jumbotron ul {
+    list-style: none;
+}
+
+#text-m {
+    margin: 1em;
+    display: inline-block;
+}
+
+#text-m p {
+    max-width: 25vw;
+}
+
+#order {
+    position: absolute;
+    right: 45%;
+    top: 40%;
+}
+
+#order ul li {
+    list-style: none;
+    text-align-last: center;
+}
+
+#order ul #but2 {
+    margin-top: 80%;
+}
+
+#order a .btn {
+    font-size: 3rem;
+    padding: 1.5rem 3rem;
+    border-radius: 1.25rem;
+    align-self: center;
+}
+
+/*responsive*/
+@media (max-width: 1750px) {
+    #text-m p {
+        min-width: 35vw;
+    }
+}
+
+@media (max-width: 1440px) {
+    header .nav {
+        min-width: 20vw;
+    }
+
+    #order {
+        right: 40vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    #text-m p {
+        min-width: 45vw;
+    }
+
+    header .nav {
+        min-width: 26vw;
+    }
+
+    #order {
+        right: 17vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #text-m p {
+        min-width: 100%;
+    }
+
+    header .nav {
+        min-width: 34vw;
+    }
+
+    #order {
+        right: 7vw;
+    }
+}
+
+@media (max-width: 425px) {
+    header .nav {
+        min-width: 100%;
+    }
+
+    header .nav a {
+        margin: auto;
+    }
+
+    #order {
+        position: relative;
+        display: inherit;
+        margin: auto;
+    }
+
+    #order ul #but2 {
+        margin-top: 20%;
+    }
+}
