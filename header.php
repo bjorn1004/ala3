@@ -18,9 +18,9 @@
                 <p class="lead">Pizza bereidt op een traditioneel Italiaanse manier</p>
             </div>
         </div>
-            <nav class="nav">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Locaties</a>
-            </nav>
+        <nav class="nav">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Locaties</a>
+        </nav>
     </header>
