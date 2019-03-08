@@ -15,4 +15,22 @@
         <li id="but2"><a href="#Afhalen"><button type="button" class="btn btn-secondary">Afhalen</button></a></li>
     </ul>
 </div>
+
+<div id="pizzas" class="container row">
+    <?php
+    include 'drawcard.php';
+    include 'dbconnect.php';
+    $i = 1;
+    $sql = "SELECT count(*) FROM `pizzas`";
+    $result = $conn->prepare($sql);
+    $result->execute();
+    $number_of_rows = $result->fetchColumn();
+
+    while ($i < $number_of_rows+1){
+    drawCard($i);
+    $i++;
+    }
+    ?>
+</div>
+
 <?php include 'footer.php';?>

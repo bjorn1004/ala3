@@ -2,6 +2,7 @@ html {
     margin: 0;
 }
 
+/*header*/
 header .jumbotron {
     background-image: url(img/header-img.jpg);
     background-size: cover;
@@ -18,18 +19,24 @@ header .nav {
     font-size-adjust: auto;
 }
 
+/*footer*/
+
+#spacer {
+    float: right;
+}
 footer .jumbotron {
     background-color: #262626;
     color: #aaaaaa;
     text-shadow: black 2px 2px;
     padding: 1%;
-    margin-bottom: 0;
+    margin: 5px 0 0;
 }
 
 footer .jumbotron ul {
     list-style: none;
 }
 
+/*about us text*/
 #text-m {
     margin: 1em;
     display: inline-block;
@@ -38,7 +45,7 @@ footer .jumbotron ul {
 #text-m p {
     max-width: 25vw;
 }
-
+/*order buttons*/
 #order {
     position: absolute;
     right: 45%;
@@ -59,6 +66,18 @@ footer .jumbotron ul {
     padding: 1.5rem 3rem;
     border-radius: 1.25rem;
     align-self: center;
+}
+
+/*pizza cards*/
+#pizzas {
+    position: relative;
+    padding-left: 20%;
+    float: right;
+}
+
+#pizzas .card {
+    float: left;
+    margin: 1ch;
 }
 
 /*responsive*/
