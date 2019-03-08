@@ -47,6 +47,7 @@ footer .jumbotron ul {
 }
 /*order buttons*/
 #order {
+    z-index: 2;
     position: absolute;
     right: 45%;
     top: 40%;
@@ -72,6 +73,7 @@ footer .jumbotron ul {
 #pizzas {
     position: relative;
     padding-left: 20%;
+    margin-right: 0;
     float: right;
 }
 
