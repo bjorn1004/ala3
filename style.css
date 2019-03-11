@@ -21,15 +21,13 @@ header .nav {
 
 /*footer*/
 
-#spacer {
-    float: right;
-}
 footer .jumbotron {
     background-color: #262626;
     color: #aaaaaa;
     text-shadow: black 2px 2px;
     padding: 1%;
     margin: 5px 0 0;
+    z-index: 2;
 }
 
 footer .jumbotron ul {
@@ -72,13 +70,12 @@ footer .jumbotron ul {
 /*pizza cards*/
 #pizzas {
     position: relative;
-    padding-left: 20%;
-    margin-right: 0;
-    float: right;
+    top: 0%;
+    margin: auto;
+    width: 100%;
 }
 
 #pizzas .card {
-    float: left;
     margin: 1ch;
 }
 
