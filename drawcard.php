@@ -5,7 +5,7 @@
     $pizza = fetchPizza($p_ID);
 ?>
 <div class="card mb-4" style="width: 18rem;">
-    <img src="img/placeholder.png" class="card-img-top" alt="pizzapic">
+    <img src="img/<?= $pizza['name']?>.png" class="card-img-top" alt="pizzapic">
     <div class="card-body">
         <h5 class="card-title">
             <?= $pizza['name']?>
