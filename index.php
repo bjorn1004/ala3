@@ -16,6 +16,7 @@
 
 <div id="pizzas" class="container row">
     <?php
+//draws a pizza card for every pizza in the database
     include 'drawcard.php';
     include 'dbconnect.php';
     $i = 1;

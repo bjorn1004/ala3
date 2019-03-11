@@ -2,6 +2,7 @@
    <?php
     include 'fetchpizzas.php';
     function drawCard($p_ID) {
+//        draws a pizzacard with information taken from database based on p_ID given
     $pizza = fetchPizza($p_ID);
 ?>
     <div class="card" style="width: 18rem;">
