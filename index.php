@@ -25,10 +25,22 @@
     $result->execute();
     $number_of_rows = $result->fetchColumn();
 
-    while ($i < $number_of_rows+1){
-    drawCard($i);
-    $i++;
+/*    while ($i < $number_of_rows+1){
+    $check = fetchPizza($i);
+        if ($check == false || $number_of_rows < 10)  {
+            $number_of_rows++;
+            $i++;
+        } else {
+            drawCard($i);
+            $i++;
+        }
+    }*/
+//        https://youtu.be/VX5gXHcbJAk
+            while ($i < $number_of_rows+1){
+            drawCard($i);
+            $i++;
     }
+        //this code relies on perfect numbering of the pizza's, above code tries to fix this, not working...
     ?>
     </div>
 </div>

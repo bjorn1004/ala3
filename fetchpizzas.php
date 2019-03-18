@@ -1,4 +1,3 @@
-
 <?php
 //grabbing pizza based on id
 function fetchPizza($p_ID) {
@@ -6,6 +5,10 @@ function fetchPizza($p_ID) {
     $stmt = $conn->prepare("SELECT * FROM pizzas where p_ID=:p_ID");
     $stmt->execute(['p_ID' => $p_ID]);
     $pizza = $stmt->fetch();
-    return $pizza;
+    if (empty($pizza)){
+        return false;
+    } else {
+        return $pizza;
+    }
 }
 ?>
