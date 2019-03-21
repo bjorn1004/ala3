@@ -47,7 +47,7 @@ footer .jumbotron ul {
     text-shadow: black 2px 2px;
 }
 
-#text-m p {
+#text-m .itext {
     max-width: 25vw;
 }
 
