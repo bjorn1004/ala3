@@ -4,6 +4,7 @@ html {
 
 body {
     background-image: url(img/background.jpg);
+    background-size: 20% auto;
 }
 
 /*header*/
@@ -42,6 +43,8 @@ footer .jumbotron ul {
 #text-m {
     margin: 1em;
     display: inline-block;
+    color: #FFFFFF;
+    text-shadow: black 2px 2px;
 }
 
 #text-m p {
