@@ -14,7 +14,7 @@
     </div>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">&euro;<?= $pizza['price'] ?></li>
-        <li class="list-group-item"><a href="#" class="btn btn-primary">Bestellen</a></li>
+        <li class="list-group-item"><a onclick="location.href = 'viewpizza.php?p_ID=<?= $pizza['p_ID']?>';" class="btn btn-primary">Bestellen</a></li>
     </ul>
 </div>
 <?php }
