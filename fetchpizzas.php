@@ -5,6 +5,7 @@ function fetchPizza($p_ID) {
     $stmt = $conn->prepare("SELECT * FROM pizzas where p_ID=:p_ID");
     $stmt->execute(['p_ID' => $p_ID]);
     $pizza = $stmt->fetch();
+    $conn = null;
     if (empty($pizza)){
         return false;
     } else {
