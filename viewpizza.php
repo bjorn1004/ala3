@@ -1,6 +1,7 @@
 <?php include 'header.php';?>
-<?php include 'drawcard.php';
-drawCard($_GET['p_ID'])?>
+<?php include 'fetchpizzas.php';
+$pizza = fetchPizza($_GET['p_ID']);
+?>
 
 <!--moet een ontwerp voor deze pagina hebben-->
 <div id="chart">
