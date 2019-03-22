@@ -51,6 +51,19 @@ footer .jumbotron ul {
     max-width: 25vw;
 }
 
+#text-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: black 2px 2px;
+}
+
+.atext {
+    text-align: center;
+    max-width: 75vw;
+}
+
 /*order buttons*/
 #order {
     z-index: 2;
