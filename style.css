@@ -1,159 +1,175 @@
 html {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background-image: url(img/background.jpg);
-    background-size: 20% auto;
+  background-image: url(img/background.jpg);
+  background-size: 20% auto;
 }
 
 /*header*/
 header .jumbotron {
-    background-image: url(img/header-img.jpg);
-    background-size: cover;
-    color: white;
-    text-shadow: black 2px 2px;
-    margin-bottom: 0;
+  background-image: url(img/header-img.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: black 2px 2px;
+  margin-bottom: 0;
 }
 
 header .nav {
-    background-color: #262626;
-    max-width: 15%;
-    min-width: 30vmin;
-    padding: 1%;
-    font-size-adjust: auto;
+  background-color: #262626;
+  max-width: 15%;
+  min-width: 30vmin;
+  padding: 1%;
+  font-size-adjust: auto;
 }
 
 /*footer*/
 
 footer .jumbotron {
-    background-color: #262626;
-    color: #aaaaaa;
-    text-shadow: black 2px 2px;
-    padding: 1%;
-    margin: 5px 0 0;
-    z-index: 2;
+  background-color: #262626;
+  color: #aaaaaa;
+  text-shadow: black 2px 2px;
+  padding: 1%;
+  margin: 5px 0 0;
+  z-index: 2;
 }
 
 footer .jumbotron ul {
-    list-style: none;
+  list-style: none;
 }
 
 /*about us text*/
 #text-m {
-    margin: 1em;
-    display: inline-block;
-    color: #FFFFFF;
-    text-shadow: black 2px 2px;
+  margin: 1em;
+  display: inline-block;
+  color: #FFFFFF;
+  text-shadow: black 2px 2px;
 }
 
 #text-m .itext {
-    max-width: 25vw;
+  max-width: 25vw;
 }
 
 /*order buttons*/
 #order {
-    z-index: 2;
-    position: absolute;
-    right: 35%;
-    top: 60%;
+  z-index: 2;
+  position: absolute;
+  right: 35%;
+  top: 60%;
 }
 
 #order ul li {
-    list-style: none;
-    text-align-last: center;
-    float: left;
+  list-style: none;
+  text-align-last: center;
+  float: left;
 }
 
 #order ul #but1 {
-    position: relative;
+  position: relative;
 }
 
 #order ul #but2 {
-    position: relative;
-    left: 70%;
+  position: relative;
+  left: 70%;
 }
 
 #order a .btn {
-    font-size: 3rem;
-    padding: 1.5rem 3rem;
-    border-radius: 1.25rem;
-    align-self: center;
+  font-size: 3rem;
+  padding: 1.5rem 3rem;
+  border-radius: 1.25rem;
+  align-self: center;
 }
 
 /*pizza cards*/
 #pizzas {
-    position: relative;
-    top: 0%;
-    margin: auto;
-    width: 100%;
+  position: relative;
+  top: 0%;
+  margin: auto;
+  width: 100%;
 }
 
 #pizzas .card {
-    margin: 1ch;
+  margin: 1ch;
 }
 
 /*responsive*/
 @media (max-width: 1750px) {
-    #text-m p {
-        min-width: 35vw;
-    }
+  #text-m p {
+    min-width: 35vw;
+  }
 }
 
 @media (max-width: 1440px) {
-    header .nav {
-        min-width: 20vw;
-    }
+  header .nav {
+    min-width: 20vw;
+  }
 
-    #order {
-        right: 40vw;
-    }
+  #order {
+    right: 40vw;
+  }
 }
 
 @media (max-width: 1024px) {
-    #text-m p {
-        min-width: 45vw;
-    }
+  #text-m p {
+    min-width: 45vw;
+  }
 
-    header .nav {
-        min-width: 26vw;
-    }
+  header .nav {
+    min-width: 26vw;
+  }
 
-    #order {
-        right: 17vw;
-    }
+  #order {
+    right: 17vw;
+  }
 }
 
 @media (max-width: 768px) {
-    #text-m p {
-        min-width: 100%;
-    }
+  #text-m p {
+    min-width: 100%;
+  }
 
-    header .nav {
-        min-width: 34vw;
-    }
+  header .nav {
+    min-width: 34vw;
+  }
 
-    #order {
-        right: 7vw;
-    }
+  #order {
+    right: 7vw;
+  }
 }
 
 @media (max-width: 425px) {
-    header .nav {
-        min-width: 100%;
-    }
+  header .nav {
+    min-width: 100%;
+  }
 
-    header .nav a {
-        margin: auto;
-    }
+  header .nav a {
+    margin: auto;
+  }
 
-    #order {
-        position: relative;
-        display: inherit;
-        margin: auto;
-    }
+  #order {
+    position: relative;
+    display: inherit;
+    margin: auto;
+  }
 
-    #order ul #but2 {
-        margin-top: 20%;
-    }
+  #order ul #but2 {
+    margin-top: 20%;
+  }
+}
+
+#chart {
+  border: solid 2px black;
+  background-color: gray;
+  margin: auto;
+  width: 1300px;
+}
+
+#chart img {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  margin-bottom: 200px;
+  border: solid 2px white;
+  border-radius: 20px;
 }
