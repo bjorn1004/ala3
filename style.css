@@ -72,12 +72,6 @@ footer .jumbotron ul {
   top: 60%;
 }
 
-#order.index ul li {
-  list-style: none;
-  text-align-last: center;
-  float: left;
-}
-
 #order.index ul #but1 {
   position: relative;
 }
@@ -85,6 +79,16 @@ footer .jumbotron ul {
 #order.index ul #but2 {
   position: relative;
   left: 70%;
+}
+
+#order.view {
+
+}
+
+#order ul li {
+  list-style: none;
+  text-align-last: center;
+  float: left;
 }
 
 #order a .btn {
