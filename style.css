@@ -52,16 +52,16 @@ footer .jumbotron ul {
 }
 
 #text-a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    text-shadow: black 2px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  text-shadow: black 2px 2px;
 }
 
 .atext {
-    text-align: center;
-    max-width: 75vw;
+  text-align: center;
+  max-width: 75vw;
 }
 
 /*order buttons*/
@@ -81,9 +81,7 @@ footer .jumbotron ul {
   left: 70%;
 }
 
-#order.view {
-
-}
+#order.view {}
 
 #order ul li {
   list-style: none;
@@ -181,13 +179,13 @@ footer .jumbotron ul {
   background-color: gray;
   margin: auto;
   width: 1300px;
+  height: 400px;
 }
 
 #chart img {
   height: 400px;
   width: 400px;
   margin: 10px;
-  margin-bottom: 200px;
   border: solid 2px white;
   border-radius: 20px;
 }
