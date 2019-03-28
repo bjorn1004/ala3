@@ -3,7 +3,7 @@
 $pizza = fetchPizza($_GET['p_ID']);
 ?>
 <div id="chart">
-  <img src="img/<?= $pizza['name']?>.png" class="card-img-top" alt="pizzapic">
+  <img src="img/<?= $pizza['p_ID']?>.png" class="card-img-top" alt="pizzapic">
   <h1><?= $pizza['name']?></h1>
   <h2><?= $pizza['descr']?></h2>
   <h3>&euro;<?= $pizza['price']?></h3>
