@@ -2,9 +2,10 @@
 <?php include 'fetchpizzas.php';
 $pizza = fetchPizza($_GET['p_ID']);
 ?>
-
-<!--moet een ontwerp voor deze pagina hebben-->
 <div id="chart">
   <img src="img/<?= $pizza['name']?>.png" class="card-img-top" alt="pizzapic">
+  <h1><?= $pizza['name']?></h1>
+  <h2><?= $pizza['descr']?></h2>
+  <h3>&euro;<?= $pizza['price']?></h3>
 </div>
 <?php include 'footer.php';?>
