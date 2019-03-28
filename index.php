@@ -7,7 +7,7 @@
         <span>Form follows fucking function. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the fucking possibility of failure. When you sit down to work, external critics aren’t the enemy. It’s you who you must to fight against to do great fucking work. You must overcome yourself. Design as if your fucking life depended on it. Don’t get hung up on things that don’t fucking work. You need to sit down and sketch more fucking ideas because stalking your ex on facebook isn’t going to get you anywhere.</span></p>
 </div>
 
-<div id=order>
+<div id="order" class="index">
     <ul>
         <li id="but1"><a href="#Bestellen"><button type="button" class="btn btn-primary">Bestellen</button></a></li>
         <li id="but2"><a href="#Afhalen"><button type="button" class="btn btn-secondary">Afhalen</button></a></li>

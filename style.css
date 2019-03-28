@@ -65,24 +65,24 @@ footer .jumbotron ul {
 }
 
 /*order buttons*/
-#order {
+#order.index {
   z-index: 2;
   position: absolute;
   right: 35%;
   top: 60%;
 }
 
-#order ul li {
+#order.index ul li {
   list-style: none;
   text-align-last: center;
   float: left;
 }
 
-#order ul #but1 {
+#order.index ul #but1 {
   position: relative;
 }
 
-#order ul #but2 {
+#order.index ul #but2 {
   position: relative;
   left: 70%;
 }
