@@ -23,6 +23,12 @@ header .nav {
     padding: 1%;
     font-size-adjust: auto;
 }
+header .jumbotron .container img {
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+}
 
 /*footer*/
 
@@ -168,6 +174,10 @@ footer .jumbotron ul {
 
     header .nav a {
         margin: auto;
+    }
+
+    header .jumbotron .container img {
+        display: none;
     }
 
     #order {
