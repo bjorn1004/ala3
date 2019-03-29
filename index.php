@@ -21,7 +21,7 @@
 
 
 
-<section id="home2">
+<section id="featured">
 <div class="text-m">
     <h1>Featured</h1>
     <p class="itext"> </p>

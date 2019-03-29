@@ -49,6 +49,9 @@
               <a class="nav-link" href="./"><h3>Menu</h3></a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#featured"><h3>Featured</h3></a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="./about.php"><h3>Over ons</h3></a>
             </li>
             <li class="nav-item">

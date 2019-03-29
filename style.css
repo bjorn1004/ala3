@@ -14,10 +14,7 @@ section#home {
     word-wrap: break-word;
   }
 
-  section#home2 {
-    min-height: 100vh;
-    padding-top: 5vh;
-  }
+ 
 
 
 .center {
@@ -214,10 +211,7 @@ footer .jumbotron ul {
         word-wrap: break-word;
       }
     
-      section#home2 {
-        min-height: 50vh;
-        padding-top: 0vh;
-      }
+      
     
 
     #imageindex img {
@@ -243,11 +237,7 @@ footer .jumbotron ul {
         word-wrap: break-word;
       }
     
-      section#home2 {
-        min-height: 50vh;
-        padding-top: 0vh;
-      }
-    
+      
 
 
     #imageindex img {
