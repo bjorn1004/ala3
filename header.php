@@ -30,15 +30,32 @@
 <body>
     <header>
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+            
                <img src="img/pizzalogo.png" alt="Pizza logo">
-                <h1 class="display-4">Sopranos Pizza</h1>
+                <h1 class="display-4 lead">Sopranos Pizza</h1>
                 <p class="lead">Pizza bereidt op een traditioneel Italiaanse manier</p>
-            </div>
+            
         </div>
-        <nav class="nav">
-            <a class="nav-link active" href="index.php">Home</a>
-            <a class="nav-link" href="about.php">About</a>
-            <a class="nav-link" href="locaties.php">Locaties</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.php"><h2>Home</h2> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./"><h3>Menu</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.php"><h3>Over ons</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./locaties.php"><h3>Locaties</h3></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
+    <div class="container container-fluid rounded">

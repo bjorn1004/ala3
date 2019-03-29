@@ -1,7 +1,7 @@
 <?php
 $servername = "127.0.0.1";
-$username = "rootie";
-$password = "uBUmTqH77cEhw6Zd";
+$username = "root";
+$password = "";
 $database = "ala3";
 
 try {
