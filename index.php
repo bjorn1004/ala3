@@ -9,7 +9,7 @@
 
 <div id="order" class="index">
     <ul>
-        <li id="but1"><a href="#Bestellen"><button type="button" class="btn btn-primary">Bestellen</button></a></li>
+        <li id="but1"><a href="#Bestellen"><button type="button" class="btn btn-primary">&nbsp;</button></a></li>
         <li id="but2"><a href="#Afhalen"><button type="button" class="btn btn-secondary">Afhalen</button></a></li>
     </ul>
 </div>
