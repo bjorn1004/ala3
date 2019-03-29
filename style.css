@@ -10,6 +10,7 @@ body {
 /*header*/
 header .jumbotron {
     background-image: url(img/header-img.jpg);
+        box-shadow:0 0 15px 5px black inset;
     background-size: cover;
     color: white;
     text-shadow: black 2px 2px;
@@ -18,11 +19,13 @@ header .jumbotron {
 
 header .nav {
     background-color: #262626;
+    box-shadow: 0 0 15px 1px black inset;
     max-width: 15%;
     min-width: 30vmin;
     padding: 1%;
     font-size-adjust: auto;
 }
+
 header .jumbotron .container img {
     height: 20%;
     position: absolute;
@@ -34,6 +37,7 @@ header .jumbotron .container img {
 
 footer .jumbotron {
     background-color: #262626;
+    box-shadow: 0 0 15px 5px black inset;
     color: #aaaaaa;
     text-shadow: black 2px 2px;
     padding: 1%;
@@ -100,6 +104,7 @@ footer .jumbotron ul {
     padding: 1.5rem 3rem;
     border-radius: 1.25rem;
     align-self: center;
+    box-shadow:0 0 15px 1px black inset;
 }
 
 #order ul #but1 a .btn {
