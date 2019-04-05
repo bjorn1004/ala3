@@ -27,7 +27,7 @@
 
 
 <section id="featured">
-<div class="text-m">
+  <div class="text-m">
     <h1>Featured</h1>
     <p class="itext"> </p>
 </div>
@@ -35,7 +35,7 @@
 
 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
 
-<?php include "drawcard.php";
+      <?php include "drawcard.php";
 drawCard(1); ?>
 
 </div>
@@ -45,11 +45,11 @@ drawCard(3); ?>
 </div>
 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
 
-<?php 
+      <?php
 drawCard(5); ?>
 
-</div>
-</div>
+    </div>
+  </div>
 </section>
 
 
@@ -62,8 +62,8 @@ drawCard(5); ?>
 </div>
 </div> -->
 
-    <div id="pizzas" class="card-columns">
-        <?php
+<div id="pizzas" class="card-columns">
+  <?php
 //draws a pizza card for every pizza in the database
     // include 'drawcard.php';
     // include 'dbconnect.php';
@@ -84,6 +84,6 @@ drawCard(5); ?>
     //     }
     // }
     ?>
-    </div>
+</div>
 
 <?php include 'footer.php';?>
