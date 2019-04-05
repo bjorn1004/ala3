@@ -17,9 +17,6 @@ section#home {
   word-wrap: break-word;
 }
 
-
-
-
 .center {
   display: block;
   margin-left: auto;
@@ -43,7 +40,6 @@ section#home {
 
 body {
   background-image: url(img/background.jpg);
-  /* background-size: 10% auto; */
 }
 
 /*header*/
@@ -165,21 +161,12 @@ footer .jumbotron ul {
   width: 100%;
 }
 
-#pizzas .card {
-  /* margin: 1ch; */
-}
 
 /*responsive*/
-@media (max-width: 1750px) {
-  .text-m p {
-    /* min-width: 35vw; */
-  }
-}
+@media (max-width: 1750px) {}
+
 
 @media (max-width: 1440px) {
-  /* header .nav {
-        min-width: 20vw;
-    } */
 
   #order {
     right: 40vw;
@@ -187,13 +174,6 @@ footer .jumbotron ul {
 }
 
 @media (max-width: 1024px) {
-  .text-m p {
-    /* min-width: 45vw; */
-  }
-
-  /* header .nav {
-        min-width: 26vw;
-    } */
 
   #order {
     right: 17vw;
@@ -201,21 +181,12 @@ footer .jumbotron ul {
 }
 
 @media (max-width: 768px) {
-  #text-m p {
-    /* min-width: 100%; */
-  }
 
-  /* header .nav {
-        min-width: 34vw;
-    } */
   section#home {
     min-height: 50vh;
     padding-top: 0vh;
     word-wrap: break-word;
   }
-
-
-
 
   #imageindex img {
     display: none;
@@ -227,22 +198,11 @@ footer .jumbotron ul {
 }
 
 @media (max-width: 425px) {
-
-  /* header .nav {
-        min-width: 100%;
-    }
-    
-    header .nav a {
-        margin: auto;
-    } */
   section#home {
     min-height: 50vh;
     padding-top: 0vh;
     word-wrap: break-word;
   }
-
-
-
 
   #imageindex img {
     display: none;
