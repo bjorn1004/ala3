@@ -3,18 +3,16 @@ html {
 }
 
 .card {
-    margin: 0 auto;
-    float: none; 
-     margin-bottom: 10px; 
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 section#home {
-    min-height: 80vh;
-    padding-top: 5vh;
-    word-wrap: break-word !important;
-  }
-
-
+  min-height: 80vh;
+  padding-top: 5vh;
+  word-wrap: break-word !important;
+}
 
 .center {
   display: block;
@@ -39,7 +37,6 @@ section#home {
 
 body {
   background-image: url(img/background.jpg);
-  /* background-size: 10% auto; */
 }
 
 /*header*/
@@ -87,17 +84,12 @@ footer .jumbotron ul {
 
 /*about us text*/
 .text-m {
-  /* margin: 1em; */
-  /* display: inline-block; */
   color: #FFFFFF;
-  /* text-shadow: black 2px 2px; */
   text-align: center;
   font-weight: 400;
 }
 
-.text-m .itext {
-  /* max-width: 25vw; */
-}
+.text-m .itext {}
 
 .text-a {
   display: flex;
@@ -115,7 +107,6 @@ footer .jumbotron ul {
 /*order buttons*/
 #order.index {
   z-index: 2;
-  /* position: absolute; */
   right: 35%;
   top: 60%;
 }
@@ -161,21 +152,14 @@ footer .jumbotron ul {
   width: 100%;
 }
 
-#pizzas .card {
-  /* margin: 1ch; */
-}
+#pizzas .card {}
 
 /*responsive*/
 @media (max-width: 1750px) {
-  .text-m p {
-    /* min-width: 35vw; */
-  }
+  .text-m p {}
 }
 
 @media (max-width: 1440px) {
-  /* header .nav {
-        min-width: 20vw;
-    } */
 
   #order {
     right: 40vw;
@@ -183,18 +167,11 @@ footer .jumbotron ul {
 }
 
 @media (max-width: 1024px) {
-  .text-m p {
-    /* min-width: 45vw; */
-  }
+  .text-m p {}
 
-  /* header .nav {
-        min-width: 26vw;
-    } */
-    #imageindex img {
-        justify-content: center;
-        
-    }
-    
+  #imageindex img {
+    justify-content: center;
+  }
 
   #order {
     right: 17vw;
@@ -202,21 +179,13 @@ footer .jumbotron ul {
 }
 
 @media (max-width: 768px) {
-  #text-m p {
-    /* min-width: 100%; */
-  }
+  #text-m p {}
 
-  /* header .nav {
-        min-width: 34vw;
-    } */
   section#home {
     min-height: 50vh;
     padding-top: 0vh;
     word-wrap: break-word;
   }
-
-
-
 
   #imageindex img {
     display: none;
@@ -229,21 +198,11 @@ footer .jumbotron ul {
 
 @media (max-width: 425px) {
 
-  /* header .nav {
-        min-width: 100%;
-    }
-    
-    header .nav a {
-        margin: auto;
-    } */
   section#home {
     min-height: 50vh;
     padding-top: 0vh;
     word-wrap: break-word;
   }
-
-
-
 
   #imageindex img {
     display: none;
