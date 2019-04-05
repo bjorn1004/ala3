@@ -76,6 +76,7 @@
             </a>
           </li>
         </ul>
+        <!--Einde shopping cart-->
       </div>
     </nav>
   </header>
