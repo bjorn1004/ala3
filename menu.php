@@ -1,14 +1,15 @@
 <?php
 include 'header.php';
+include 'drawcard.php';
+include 'dbconnect.php';
 
 ?>
-
+<section id="home">
 <div id="pizzas" class="card-columns">
   <?php
 //draws a pizza card for every pizza in the database
 
-    include 'drawcard.php';
-    include 'dbconnect.php';
+  
     $i = 1;
     $sql = "SELECT count(*) FROM `pizzas`";
     $result = $conn->prepare($sql);
@@ -27,7 +28,7 @@ include 'header.php';
     }
     ?>
 </div>
-
+</section>
 <?php
 include 'footer.php';
 

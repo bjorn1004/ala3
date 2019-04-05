@@ -9,8 +9,7 @@ $pizza = fetchPizza($_GET['p_ID']);
     <h3>&euro;<?= $pizza['price']?></h3>
     <div id="order" class="view">
         <ul>
-            <li id="but1"><a href="#Bestellen"><button type="button" class="btn btn-primary">&nbsp;</button></a></li>
-            <li id="but2"><a href="add-to-cart.php?p_ID=<?= $pizza['p_ID']?>"><button type="button" class="btn btn-secondary">Afhalen</button></a></li>
+            <li id="but1"><a href="add-to-cart.php?p_ID=<?= $pizza['p_ID']?>"><button type="button" class="btn btn-primary">&nbsp;</button></a></li>
         </ul>
     </div>
 </div>

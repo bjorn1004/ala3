@@ -113,12 +113,12 @@ footer .jumbotron ul {
 }
 
 #order.index ul #but1 {
-  position: relative;
+
 }
 
 #order.index ul #but2 {
-  position: relative;
-  left: 70%;
+  /* position: relative;
+  left: 70%; */
 }
 
 #order.view {}

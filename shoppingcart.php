@@ -1,4 +1,5 @@
 <?php include 'header.php';
+include 'dbconnect.php';
 
 session_start();
 
@@ -6,10 +7,35 @@ var_dump($_SESSION['cart']);
 
 $whereIn = implode(',',$_SESSION['cart']);
 
-$sql = "
-    SELECT * FROM products 
-    WHERE p_ID IN ($whereIN)
+
+$sql ="
+    SELECT * FROM pizzas 
+    WHERE p_ID IN ($whereIn)
 ";
-echo $sql;
+
+	
+?>
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">p_id</th>
+    <th scope="col">name</th>
+    <th scope="col">price</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td><?php var_dump($_SESSION['cart']); ?> </td>
+    <td><?php echo $_SESSION['1']; ?> </td>
+    <td>@mdo</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+<?php
 
  include 'footer.php';?>
