@@ -280,9 +280,4 @@ footer .jumbotron ul {
   border-radius: 20px;
 }
 
-#shoppingcart {
-  margin-right: -20000px;
-  margin-left: 1580px;
-  margin-top: -25px;
-  position: absolute;
-}
+#shoppingcart {}
