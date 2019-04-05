@@ -46,7 +46,7 @@
               <a class="nav-link" href="./index.php"><h2>Home</h2> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./"><h3>Menu</h3></a>
+              <a class="nav-link" href="./menu.php"><h3>Menu</h3></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./index.php#featured"><h3>Featured</h3></a>
