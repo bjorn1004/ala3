@@ -4,17 +4,22 @@
 
 
 <section id="home">
-        
-   <div id="imageindex" class="center">
-   <h1 class="text-m"> Welkom! </h1> <br>
-    <p class="text-m"> Inleiding............textexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttext
-    textexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttext
-    textexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttext </p>
-    <img src="./img/1.png">
-    <img src="./img/2.png">
-    <img src="./img/3.png">
-    <img src="./img/5.png">
+<div class="row">
+    <div class="col-12">
+        <div class="center">
+            <h1 class="text-m"> Welkom! </h1> <br>
+            <p class="text-m"> Inleiding............textexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttext textexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttext
+                textexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttexttextexttexttexttexttexttext </p>
+        </div>
+    </div>
 </div>
+<div class="row" id="imageindex">
+    <div class="col-md-6 col-lg-6 col-xl-3"><img src="./img/1.png"></div>
+    <div class="col-md-6 col-lg-6 col-xl-3"><img src="./img/2.png"></div>
+    <div class="col-md-6 col-lg-6 col-xl-3"><img src="./img/3.png"></div>
+    <div class="col-md-6 col-lg-6 col-xl-3"><img src="./img/5.png"></div>
+</div>
+
 
 </section>
 
@@ -26,19 +31,19 @@
     <h1>Featured</h1>
     <p class="itext"> </p>
 </div>
-
 <div class="row">
-<div class="col-4 col-sm-12 col-md-4">
+
+<div class="col-12 col-sm-12 col-md-12 col-lg-4">
 
 <?php include "drawcard.php";
 drawCard(1); ?>
 
 </div>
-<div class="col-4 col-sm-12 col-md-4">
+<div class="col-12 col-sm-12 col-md-12 col-lg-4">
 <?php 
 drawCard(3); ?>
 </div>
-<div class="col-4 col-sm-12 col-md-4">
+<div class="col-12 col-sm-12 col-md-12 col-lg-4">
 
 <?php 
 drawCard(5); ?>

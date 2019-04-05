@@ -3,15 +3,15 @@ html {
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none; 
+     margin-bottom: 10px; 
 }
 
 section#home {
     min-height: 80vh;
     padding-top: 5vh;
-    word-wrap: break-word;
+    word-wrap: break-word !important;
   }
 
  
@@ -31,11 +31,15 @@ section#home {
 
 .container {
     background-color: grey;
+    justify-content: center;
+    
 }
 
 #imageindex img {
     width: 270px;
     height: 270px;
+    
+
 }
 
 body {
@@ -191,6 +195,11 @@ footer .jumbotron ul {
     /* header .nav {
         min-width: 26vw;
     } */
+    #imageindex img {
+        justify-content: center;
+        
+    }
+    
 
     #order {
         right: 17vw;
