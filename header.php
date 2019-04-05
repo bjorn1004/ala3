@@ -57,6 +57,8 @@
             <li class="nav-item">
               <a class="nav-link" href="./locaties.php"><h3>Locaties</h3></a>
             </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
             <li>
             <a class="nav-link" href=./shoppingcart.php> <img id="shoppingcart" src="img/Shopping_Cart.png"></a>
             </li>
