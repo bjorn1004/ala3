@@ -74,3 +74,8 @@ $d = new factory();
 $pizzas = $d->echomonster();
 echo 'Dab';
 ?>
+<!--
+if (isset($_POST["pizza_id"]) && isset($_POST["amount"])) {
+
+$p_ID = $_POST["p_ID"]}}
+-->

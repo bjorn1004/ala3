@@ -31,7 +31,7 @@
     <header>
         <div class="jumbotron jumbotron-fluid">
             
-               <img src="img/pizzalogo.png" alt="Pizza logo">
+               <img src="img/pizzalogo.svg" alt="Pizza logo">
                 <h1 class="display-4 lead">Sopranos Pizza</h1>
                 <p class="lead">Pizza bereidt op een traditioneel Italiaanse manier</p>
             
