@@ -4,6 +4,7 @@ include 'drawcard.php';
 include 'dbconnect.php';
 
 ?>
+<div class="row">
 <section id="home">
 <div id="pizzas" class="card-columns">
   <?php
@@ -29,6 +30,7 @@ include 'dbconnect.php';
     ?>
 </div>
 </section>
+</div>
 <?php
 include 'footer.php';
 

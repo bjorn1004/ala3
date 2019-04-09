@@ -30,11 +30,9 @@
 <body>
     <header>
         <div class="jumbotron jumbotron-fluid">
-            
-               <img src="img/pizzalogo.png" alt="Pizza logo">
-                <h1 class="display-4 lead">Sopranos Pizza</h1>
-                <p class="lead">Pizza bereidt op een traditioneel Italiaanse manier</p>
-            
+          <img onclick="spin()" id="spinImg" src="img/pizzalogo.svg" alt="Pizza logo">
+          <h1 class="display-4 lead">Sopranos Pizza</h1>
+          <p class="lead">Pizza bereidt op een traditioneel Italiaanse manier</p>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

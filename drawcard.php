@@ -4,7 +4,7 @@
 //        draws a pizzacard with information taken from database based on p_ID given
     $pizza = fetchPizza($p_ID);
 ?>
-<div class="card mb-4" style="width: 18rem;">
+<div class="card mb-4 " style="width: 18rem;">
     <img src="img/<?= $pizza['p_ID']?>.png" class="card-img-top" alt="pizzapic">
     <div class="card-body">
         <h5 class="card-title">
