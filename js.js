@@ -1,5 +1,7 @@
+
 var pizzadance = document.getElementById("pizzadance"),
     playing = false;
+
 
 function playAudio() {
     "use strict";
@@ -11,5 +13,6 @@ function playAudio() {
         playing = false;
     }
 }
+
 
 
