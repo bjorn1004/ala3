@@ -4,7 +4,6 @@ $username = "root";
 $password = "usbw";
 // $username = "rootie";
 // $password = "uBUmTqH77cEhw6Zd";
->>>>>>> origin/master
 $database = "ala3";
 
 try {
