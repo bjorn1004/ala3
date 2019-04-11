@@ -20,8 +20,8 @@ $sql ="
   <tr>
     <th scope="col">#</th>
     <th scope="col">p_id</th>
-    <th scope="col">name</th>
-    <th scope="col">price</th>
+    <th scope="col">Naam</th>
+    <th scope="col">Prijs</th>
   </tr>
 </thead>
 <tbody>
