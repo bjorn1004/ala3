@@ -7,7 +7,7 @@ if (empty($_SESSION['cart'])){
 // session array
 }
 
-array_push($_SESSION['cart'], $_GET['p_ID']);
+array_push($_SESSION['cart'], array("p_ID"=>$_GET['p_ID'], "t_ID"=>$_GET['t_ID'], "amount"=>$_GET["amount"]));
 // pushing a p_id to the array cart
 
 ?>

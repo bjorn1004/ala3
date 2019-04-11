@@ -6,13 +6,13 @@
 <div class="row">
 <div id="white" class="col-5">
     <h1> Locaties </h1><br>
-    <p>Alphen aan den Rijn<br>
+    <p>Rotterdam<br>
     Hondenstraat 5<br>
     2408PN</p>
-    <p>Leiden<br>
+    <p>Amsterdam<br>
     Ietsnogwat 555<br>
     2500 HN</p>
-    <p>Zoetermeer<br>
+    <p>Utrecht<br>
     Eenlocatievandepizzaboer 999<br>
     2855 RR</p>
 </div>
@@ -27,7 +27,7 @@
           })
         ],
         view: new ol.View({
-          center: ol.proj.fromLonLat([4.6688508, 52.1276577]),
+          center: ol.proj.fromLonLat([4.464306, 51.921169]),
           zoom:15
         })
       });
