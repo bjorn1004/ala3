@@ -12,4 +12,18 @@ function fetchPizza($p_ID) {
         return $pizza;
     }
 }
+
+function fetchType($t_ID) {
+   include 'dbconnect.php';
+    $stmt = $conn->prepare("SELECT * FROM pizzatypes where t_ID=:t_ID");
+    $stmt->execute(['t_ID' => $t_ID]);
+    $type = $stmt->fetch();
+    $conn = null;
+    if (empty($type)){
+        return false;
+    } else {
+        return $type;
+    }
+}
+
 ?>
