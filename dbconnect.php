@@ -1,9 +1,10 @@
 <?php
 $servername = "127.0.0.1";
-$username = "root";
-$password = "usbw";
-// $username = "rootie";
-// $password = "uBUmTqH77cEhw6Zd";
+//$username = "root";
+//$password = "usbw";
+//rootie has just access to the ala3 database
+ $username = "rootie";
+ $password = "uBUmTqH77cEhw6Zd";
 $database = "ala3";
 
 try {

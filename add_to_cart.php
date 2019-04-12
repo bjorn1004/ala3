@@ -7,7 +7,7 @@ if (empty($_SESSION['cart'])){
 // session array
 }
 
-//checks every entry in $_SESSION['cart'] to see if new item is identical to old, if yes, adds amount together instead of making new entry
+//checks every index in $_SESSION['cart'] to see if new item is identical to old, if yes, adds amount together instead of making new index
     $i = 0;
     $number_of_rows = count($_SESSION['cart']);
     $merged = false;
@@ -24,7 +24,7 @@ if ($number_of_rows != 0) {
 } else {
         array_push($_SESSION['cart'], array("p_ID"=>$_GET['p_ID'], "t_ID"=>$_GET['t_ID'], "amount"=>$_GET["amount"]));
 }
-// pushing a p_id to the array cart
+// pushing a array containing the p_ID(used to identify pizza), t_ID(used to identify type) and amount to the array cart
 
 ?>
 <!-- pushes 'add-to-card.php' to go to the shopping cart automatically. content = how many seconds -->

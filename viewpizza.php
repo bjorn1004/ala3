@@ -19,9 +19,10 @@ $pizza = fetchPizza($_GET['p_ID']);
       </h3>
       <form id="pizzaselect" action="add_to_cart.php" method="get">
         <input value="<?= $pizza['p_ID']?>" name="p_ID" readonly type="hidden">
-        <label for="amount">Hoeveelheid</label><input id="amount" name="amount" value="1" min="1" max="10" type="number">
+        <label for="amount">Hoeveelheid</label><input id="amount" name="amount" value="1" min="1" max="10" type="number"><br>
         <label for="type">Welke Type?</label><select id="type" name="t_ID" form="pizzaselect">
           <?php
+//    adds a type option for every entry in the pizzatypes table
        include 'dbconnect.php';
          $i = 1;
      $sql = "SELECT count(*) FROM `pizzatypes`";

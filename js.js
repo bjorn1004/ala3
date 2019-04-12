@@ -1,3 +1,4 @@
+//all code here is purely used for gags
 var pizzadance = document.getElementById("pizzadance"),
     playing = false;
 

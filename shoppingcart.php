@@ -39,6 +39,7 @@ $price = 0;
             $i++;
         }
     }
+//        draws the final row after all indexes have been drawn
         finalRow($quantity, $price);
     ?>
     </tbody>

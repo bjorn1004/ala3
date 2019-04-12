@@ -23,7 +23,7 @@ function drawRow($row){
 </tr>
 <?php
 return $return; };
-
+// draws the final row that includes a summary of total amount of pizzas and the total price
 function finalRow($quantity, $price) {
        ?>
 <tr>
