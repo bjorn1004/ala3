@@ -7,7 +7,7 @@ function drawRow($row){
     $pizza = fetchPizza($_SESSION['cart'][$row]['p_ID']);
     $pizza = fetchPizza($_SESSION['cart'][$row]['p_ID']);
     $amount = $_SESSION['cart'][$row]['amount'];
-    $price = $pizza['price'] + $type['price'] * $amount;
+    $price = ($pizza['price'] + $type['price']) * $amount;
     ?>
         <tr>
             <th scope="row"><?= $row + 1 ?></th>
