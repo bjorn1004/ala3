@@ -52,38 +52,7 @@ drawCard(5); ?>
   </div>
 </section>
 
-
-<!-- <div class="row">
-<div id="order" class="index">
-    <ul>
-        <li id="but1"><a href="#Bestellen"><button type="button" class="btn btn-primary">&nbsp;</button></a></li>
-        <li id="but2"><a href="#Afhalen"><button type="button" class="btn btn-secondary">Afhalen</button></a></li>
-    </ul>
-</div>
-</div> -->
-
 <div id="pizzas" class="card-columns">
-  <?php
-//draws a pizza card for every pizza in the database
-    // include 'drawcard.php';
-    // include 'dbconnect.php';
-    // $i = 1;
-    // $sql = "SELECT count(*) FROM `pizzas`";
-    // $result = $conn->prepare($sql);
-    // $result->execute();
-    // $number_of_rows = $result->fetchColumn();
-
-    // while ($i < $number_of_rows+1){
-    // $check = fetchPizza($i);
-    //     if ($check == false)  {
-    //         $number_of_rows++;
-    //         $i++;
-    //     } else {
-    //         drawCard($i);
-    //         $i++;
-    //     }
-    // }
-    ?>
 </div>
 
 <?php include 'footer.php';?>
