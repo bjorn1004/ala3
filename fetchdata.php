@@ -13,6 +13,7 @@ function fetchPizza($p_ID) {
     }
 }
 
+//grabbing type based on id
 function fetchType($t_ID) {
    include 'dbconnect.php';
     $stmt = $conn->prepare("SELECT * FROM pizzatypes where t_ID=:t_ID");
