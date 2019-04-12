@@ -1,38 +1,44 @@
 <?php include 'header.php';
 include 'dbconnect.php';
-include 'fetchdata.php';
+include 'drawcartrow.php';
 
 session_start();
 
 var_dump($_SESSION['cart']);
 
-$whereIn = implode(',',$_SESSION['cart']);
-
-
-$sql ="
-    SELECT * FROM pizzas 
-    WHERE p_ID IN ($whereIn)
-";
-
+$price = 0;
 	
 ?>
 <table class="table">
-<thead>
-  <tr>
-    <th scope="col">#</th>
-    <th scope="col">Naam</th>
-    <th scope="col">Type</th>
-    <th scope="col">Prijs</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <th scope="row">1</th>
-    <td><?php var_dump($_SESSION['cart']); ?> </td>
-    <td><?php echo $_SESSION['cart']['0']['t_ID']; ?> </td>
-    <td>@mdo</td>
-  </tr>
-</tbody>
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Naam</th>
+            <th scope="col">Type</th>
+            <th scope="col">Nummer</th>
+            <th scope="col">Prijs</th>
+        </tr>
+    </thead>
+    <tbody>
+<?php
+//draws a row for every index in $_SESSION['cart']
+
+
+    $i = 0;
+    $number_of_rows = count($_SESSION['cart']   );
+
+    while ($i < $number_of_rows){
+    $check = empty($_SESSION['cart'][$i]);
+        if ($check == true)  {
+            $number_of_rows++;
+            $i++;
+        } else {
+            $price = $price + drawRow($i);
+            $i++;
+        }
+    }
+    ?>
+    </tbody>
 </table>
 <a href="empty_cart.php">EMPTY</a>
 
