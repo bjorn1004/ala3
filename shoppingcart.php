@@ -1,5 +1,6 @@
 <?php include 'header.php';
 include 'dbconnect.php';
+include 'fetchdata.php';
 
 session_start();
 
@@ -19,8 +20,8 @@ $sql ="
 <thead>
   <tr>
     <th scope="col">#</th>
-    <th scope="col">p_id</th>
     <th scope="col">Naam</th>
+    <th scope="col">Type</th>
     <th scope="col">Prijs</th>
   </tr>
 </thead>
@@ -28,11 +29,12 @@ $sql ="
   <tr>
     <th scope="row">1</th>
     <td><?php var_dump($_SESSION['cart']); ?> </td>
-    <td><?php echo $_SESSION['1']; ?> </td>
+    <td><?php echo $_SESSION['cart']['0']['t_ID']; ?> </td>
     <td>@mdo</td>
   </tr>
 </tbody>
 </table>
+<a href="empty_cart.php">EMPTY</a>
 
 
 

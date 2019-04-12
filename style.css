@@ -159,7 +159,7 @@ footer .jumbotron ul {
     float: left;
 }
 
-#order a .btn {
+#order .btn {
     font-size: 3rem;
     padding: 1.5rem 3rem;
     border-radius: 1.25rem;
@@ -167,7 +167,7 @@ footer .jumbotron ul {
     box-shadow: 0 0 15px 1px black inset;
 }
 
-#order ul #but1 a .btn {
+#order ul #but1 .btn {
     background-image: url(img/Bestel_button.png);
     background-position: center;
     background-size: cover;
