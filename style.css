@@ -23,7 +23,12 @@ h1,
 h2,
 td,
 th {
+<<<<<<< HEAD
     color: white;
+=======
+  color: white;
+  text-shadow: 2px blue;
+>>>>>>> origin/master
 }
 
 .map {
@@ -279,11 +284,22 @@ footer .jumbotron ul {
 }
 
 #chart {
+<<<<<<< HEAD
     border: solid 2px black;
     background-image: url(img/background2.jpg);
     color: white;
     text-shadow: black 2px 2px;
+=======
+  border: solid 2px black;
+  background-image: url(img/background2.jpg);
+  color: white;
+  text-shadow: black 2px 2px;
+  height: 550px;
+}
+>>>>>>> origin/master
 
+#chart button {
+  padding: 30px;
 }
 
 #chart img {
