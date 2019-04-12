@@ -8,17 +8,31 @@ function drawRow($row){
     $pizza = fetchPizza($_SESSION['cart'][$row]['p_ID']);
     $amount = $_SESSION['cart'][$row]['amount'];
     $price = ($pizza['price'] + $type['price']) * $amount;
+    $return = array("quantity"=>$amount, "price"=>$price);
     ?>
-        <tr>
-            <th scope="row"><?= $row + 1 ?></th>
-            <td><?php
-                    echo $pizza['name'];?> </td>
-            <td><?php
-                    echo $type['name'];
+<tr>
+    <th scope="row"><?= $row + 1 ?></th>
+    <td><?=
+                    $pizza['name'];?> </td>
+    <td><?=
+                    $type['name'];
         ?> </td>
-           <td><?= $amount ?></td>
-            <td><?= $price ?></td>
-        </tr>
-        <?php
-return $price; };
+    <td><?= $amount ?></td>
+    <td>&euro;<?= $price ?>
+        <a href="empty_cart.php?clear=<?= $row ?>"><img class="deleteicon" src="img/trash.png"></a></td>
+</tr>
+<?php
+return $return; };
+
+function finalRow($quantity, $price) {
+       ?>
+<tr>
+    <th scope="row">#</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Pizza's: <?= $quantity ?></td>
+    <td>Prijs: &euro;<?= $price ?></td>
+</tr>
+<?php
+};
 ?>

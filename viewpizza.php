@@ -39,7 +39,7 @@ $pizza = fetchPizza($_GET['p_ID']);
     } else {
              ?>
           <option value="<?= $type['t_ID']?>">
-            <?= $type['name']?>
+            <?= $type['name']?> (+ &euro; <?=$type['price']?>)
           </option>
           <?php
              $i++;

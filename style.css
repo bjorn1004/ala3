@@ -39,6 +39,12 @@ section#home {
   word-wrap: break-word !important;
 }
 
+section#cart {
+  min-height: 50vh;
+  padding-top: 5vh;
+  word-wrap: break-word !important;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -71,6 +77,11 @@ body {
 
 #image {
   z-index: 1030;
+}
+
+.deleteicon {
+    width: 2vw;
+    float: right;
 }
 
 .rotate {
@@ -243,6 +254,11 @@ footer .jumbotron ul {
     word-wrap: break-word;
   }
 
+section#cart {
+  min-height: 20vh;
+  padding-top: 0vh;
+  word-wrap: break-word !important;
+}
   #imageindex img {
     display: none;
   }
@@ -260,6 +276,11 @@ footer .jumbotron ul {
     word-wrap: break-word;
   }
 
+section#cart {
+  min-height: 20vh;
+  padding-top: 0vh;
+  word-wrap: break-word !important;
+}
   #imageindex img {
     display: none;
   }

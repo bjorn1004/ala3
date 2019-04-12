@@ -4,11 +4,11 @@ include 'drawcartrow.php';
 
 session_start();
 
-var_dump($_SESSION['cart']);
-
+$quantity = 0;
 $price = 0;
 	
 ?>
+<section id="cart">
 <table class="table">
     <thead>
         <tr>
@@ -33,15 +33,18 @@ $price = 0;
             $number_of_rows++;
             $i++;
         } else {
-            $price = $price + drawRow($i);
+            $return = drawRow($i);
+            $price = $price + $return['price'];
+            $quantity = $quantity + $return['quantity'];
             $i++;
         }
     }
+        finalRow($quantity, $price);
     ?>
     </tbody>
 </table>
-<a href="empty_cart.php">EMPTY</a>
-
+<a href="empty_cart.php?clear=-42"><img class="deleteicon" src="img/trash.png" alt="delete"></a>
+</section>
 
 
 <?php
