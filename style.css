@@ -19,7 +19,8 @@ html {
   color: white;
 }
 
-h1 {
+h1,
+h2 {
   color: white;
 }
 
@@ -162,8 +163,7 @@ footer .jumbotron ul {
   float: left;
 }
 
-<<<<<<< HEAD
-#order a .btn {
+<<<<<<< HEAD #order a .btn {
   font-size: 3rem;
   padding: 1.5rem 3rem;
   border-radius: 1.25rem;
@@ -177,22 +177,23 @@ footer .jumbotron ul {
   background-size: cover;
   width: 230%;
   border-width: 0;
-=======
-#order .btn {
-    font-size: 3rem;
-    padding: 1.5rem 3rem;
-    border-radius: 1.25rem;
-    align-self: center;
-    box-shadow: 0 0 15px 1px black inset;
+}
+
+=======#order .btn {
+  font-size: 3rem;
+  padding: 1.5rem 3rem;
+  border-radius: 1.25rem;
+  align-self: center;
+  box-shadow: 0 0 15px 1px black inset;
 }
 
 #order ul #but1 .btn {
-    background-image: url(img/Bestel_button.png);
-    background-position: center;
-    background-size: cover;
-    width: 230%;
-    border-width: 0;
->>>>>>> origin/master
+  background-image: url(img/Bestel_button.png);
+  background-position: center;
+  background-size: cover;
+  width: 230%;
+  border-width: 0;
+  > > > > > > > origin/master
 }
 
 /*pizza cards*/
@@ -291,6 +292,10 @@ footer .jumbotron ul {
   border-radius: 20px;
 }
 
+#col7 {
+  color: white;
+  background-color:
+}
 
 @-moz-keyframes spin {
   100% {
